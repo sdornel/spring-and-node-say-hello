@@ -3,7 +3,6 @@ const axios = require('axios');
 
 const app = express();
 const port = 3000;
-
 const springApiUrl = 'http://localhost:8080/api/sendHelloToNode';
 
 app.get('/', (req, res) => {
